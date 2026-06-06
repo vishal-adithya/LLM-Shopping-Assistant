@@ -16,11 +16,6 @@ def load_csv(file_path):
 
 DATASET_PATH = os.path.join("../Data","preprocessed_data.csv")
 
-def load_dataset():
-    return load_csv(DATASET_PATH)   
-
-
-
 if __name__ == "__main__":
 
     ds = load_csv(DATASET_PATH)
