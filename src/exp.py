@@ -4,6 +4,9 @@ from langchain_core.tools import tool
 import pandas as pd
 import os
 
+from langchain_core.globals import set_debug
+set_debug(True)
+
 def load_csv(file_path):
     
     if not os.path.exists(file_path):
